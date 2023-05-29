@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static self to(string $text)
+ * @method static self throttle(string $text, int $seconds)
  * @method static void message(string $text)
  *
  * @see \Spatie\DiscordAlerts\DiscordAlert
